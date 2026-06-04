@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     # OpenRouter API key 
     OPENROUTER_API_KEY: str 
-    OPENROUTER_MODEL: str = "meta-llama/llama-3.2-3b-instruct:free"
+    OPENROUTER_MODEL: str = "openrouter/free"
 
     # Qdrant
     QDRANT_HOST: str = "localhost"
