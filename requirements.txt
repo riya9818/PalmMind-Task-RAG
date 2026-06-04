@@ -1,0 +1,29 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# PDF/text extraction
+pypdf==4.2.0
+
+# Embeddings 
+sentence-transformers==3.4.1
+
+# Vector DB
+qdrant-client==1.9.1
+
+# Chat memory
+redis==5.0.4
+
+# SQL metadata storage
+sqlalchemy==2.0.30
+
+# Data validation
+pydantic==2.7.1
+pydantic-settings==2.3.1
+
+# HTTP client (to call Ollama)
+httpx==0.27.0
+
+# Utilities
+python-dotenv==1.0.1
+aiofiles==23.2.1
